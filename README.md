@@ -32,19 +32,6 @@ the psycopg2 library, and the newsdata.sql file.
   `psql -d news -f newsdata.sql` to create necessary tables and populate
   the database.
 
-
-~~This program runs slowly and in the real-world (in production) would
-benefit from optimization to increase the query speeds.  From my research
-I found that this results from the use of the "LIKE" comparison which,
-according to the information I could find, is a costly operation in
-Postgresql.  However, I did not see any valid, working recommendations
-for its replacement (I'm sure it exists, I just couldn't find it).~~
-This has been corrected thanks to the reviewer who ran through this
-the first time around.  No clue if it'll be you reading this, but seriously,
-many thanks to you.  This code is way, way better because of you, and I learned
-some awesome new things!  Seriously, thank you.
-
-
 The program is built on three (3) functions:
 
 * __italic__most_popular_article()__italic__ queries the database by a count of the
