@@ -57,7 +57,7 @@ These three functions are returned at the end of the program by the
 
 
 
-###The following views were entered into the 'News' database `psql news`:
+### The following views were entered into the 'News' database `psql news`:
 
 * 'create view comp_errors as
   select a.Day, a.Errors, b.Hits
