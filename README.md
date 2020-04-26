@@ -16,7 +16,7 @@ information from the logs contained within that database.
 with the News DB and run it via terminal using the command
 `python news_report.py`, it's as simple as that!
 
-* In all seriousness though, this code requires Python2, PostgreSQL,
+* This code requires Python2, PostgreSQL,
 the psycopg2 library, and the newsdata.sql file.
 
 * The newsdata.sql file can be found either through the direct link,
